@@ -1,0 +1,126 @@
+---
+layout: default
+---
+
+<article>
+
+  <div class="cinema-mode">
+    <div class="single-video-wrapper">
+      {% if page.youtube_id %}
+      <iframe class="video-embed" src="https://www.youtube.com/embed/{{ page.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      {% elsif page.vimeo_id %}
+      <iframe class="video-embed" src="https://player.vimeo.com/video/{{ page.vimeo_id }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      {% else %}
+      <img src="{{ page.placeholder }}">
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="wrapper video-item-body">
+    <h1 class="text-center">{{ page.title }}</h1>
+    <div class="text-center">
+      <p>
+      Directed by: {{ page.dir }}<br/>
+      Producer: {{ page.prod }}<br/>
+      Production Company: {{ page.comp }}</br>
+
+      {% if page.agency %}
+          Agency: {{ page.agency }}<br/>
+      {% endif %}
+
+      {% if page.awards %}
+          <br/>
+          {{ page.awards }}<br/>
+      {% endif %}
+
+      {% if page.content %}
+        <br/>
+        {{ content }}
+      {% endif %}
+      </p>
+    </div>
+  </div>
+
+  <div class="image-gallery">
+    {% for img in page.stills %}
+      {% assign mod = forloop.index0 | modulo : 2 %}
+      {% if mod == 0 %}
+      <div class="inner">
+      {% endif %}
+      <a>
+         <img src="{{ img }}">
+      </a>
+      {% if mod == 1 %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="wrapper video-item-body">
+    <h1 class="text-center">Related</h1>
+  </div>
+
+  <div class="video-gallery">
+    <div class="inner">
+    {% if page.collection == "music" %}
+
+     {% assign show_vids=3 %}
+
+     {% for video in site.music reversed %}
+       {% if forloop.index0 == show_vids %}
+          {% break %}
+       {% endif %}
+       {% if video.url != page.url %}
+           <a href="{{ video.url }}">
+           <img src="{{ video.thumb }}">
+           <h2 class="text-center">{{ video.title }}</h2>
+           <h4 class="text-center">Dir. {{ video.dir }}</h4>
+           </a>
+       {% else %}
+            {% assign show_vids = 4 %}
+       {% endif %}
+     {% endfor %}
+
+   {% elsif page.collection == "commercial" %}
+
+     {% assign show_vids=3 %}
+
+     {% for video in site.commercial reversed %}
+       {% if forloop.index0 == show_vids %}
+          {% break %}
+       {% endif %}
+       {% if video.url != page.url %}
+           <a href="{{ video.url }}">
+           <img src="{{ video.thumb }}">
+           <h2 class="text-center">{{ video.title }}</h2>
+           <h4 class="text-center">Dir. {{ video.dir }}</h4>
+           </a>
+       {% else %}
+            {% assign show_vids = 4 %}
+       {% endif %}
+     {% endfor %}
+
+   {% elsif page.collection == "narrative" %}
+
+     {% assign show_vids=3 %}
+
+     {% for video in site.narrative reversed %}
+       {% if forloop.index0 == show_vids %}
+          {% break %}
+       {% endif %}
+       {% if video.url != page.url %}
+           <a href="{{ video.url }}">
+           <img src="{{ video.thumb }}">
+           <h2 class="text-center">{{ video.title }}</h2>
+           <h4 class="text-center">Dir. {{ video.dir }}</h4>
+           </a>
+       {% else %}
+            {% assign show_vids = 4 %}
+       {% endif %}
+     {% endfor %}
+
+    {% endif %}
+    </div>
+  </div>
+
+</article>

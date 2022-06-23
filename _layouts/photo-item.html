@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<article>
+  <div class="fullscreen hide">
+    <img src="{{ page.stills[0] }}"/>
+    <a class="controls" id="prev-gallery" onclick="navigate(-1)"> < </a>
+    <a class="controls" id="next-gallery" onclick="navigate(1)" > > </a>
+    <a class="controls" id="exit-gallery" onclick="exitscreen()"> x </a>
+    <p class="watermark">© Andrei Sas</p>
+  </div>
+
+  <div class="wrapper photo-item-body">
+    <h1 class="text-center">{{ page.title }}</h1>
+    <div class="text-center">
+      <p>
+      {{ page.text }}<br/><br/>
+      {{ page.spec }}<br/>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="video-gallery square-aspect-ratio">
+    {% assign count = page.stills.size %}
+    {% for img in page.stills %}
+      {% assign mod = forloop.index0 | modulo : 3 %}
+      {% if mod == 0 %}
+      <div class="inner">
+      {% endif %}
+      <a onclick="fullscreen({{ forloop.index0 }})">
+         <img src="{{ img }}"/>
+      </a>
+      {% if mod == 2 %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</article>

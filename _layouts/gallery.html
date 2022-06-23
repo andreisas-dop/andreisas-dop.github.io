@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<article>
+
+{% if page.embed_video_mp4 or page.embed_video_ogv %}
+  <div class="video-full" data-src="{{ page.placeholder }}" data-video="{{ page.embed_video_mp4 }}" data-placeholder="{{ page.placeholder }}">
+    <video preload="auto" autoplay="autoplay" muted="muted" loop="" poster="{{ page. placeholder }}"><source src="{{ page.embed_video_ogg }}" type="video/ogg">
+    </video>
+  </div>
+{% elsif page.youtube_id %}
+  <div class="cinema-mode">
+    <div class="single-video-wrapper">
+      <iframe class="video-embed" src="https://www.youtube.com/embed/{{ page.youtube_id }}?rel=0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+{% elsif page.vimeo_id %}
+  <div class="cinema-mode">
+    <div class="single-video-wrapper">
+      <iframe class="video-embed" src="https://player.vimeo.com/video/{{ page.vimeo_id }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+{% elsif page.placeholder %}
+  <div class="single-video-wrapper">
+    <img src="{{ page.placeholder }}">
+  </div>
+{% else %}
+&nbsp;
+{% endif %}
+
+  <div class="wrapper video-gallery-body">
+    <h1 class="text-center">{{ page.title }}</h1>
+  </div>
+
+  {{ content }}
+
+</article>
