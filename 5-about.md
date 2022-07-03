@@ -21,6 +21,7 @@ menu: about
 
         <p>His practice is rooted in complete dedication to his projects and a continuous drive to render the extraordinary in the mundane. This has led to his work being screened around the world, garnering multiple awards.</p>
 
+        <p><img src="assets/img/albert_badge_2022_S.png"></p>
       </div>
     </div>
   </div>
