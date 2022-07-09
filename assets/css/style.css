@@ -355,6 +355,10 @@ header, footer {
   overflow: hidden;
 }
 
+.single-video-wrapper img {
+  width: 100%;
+}
+
 @media (max-width: 899px) {
   .single-video-wrapper {
     width: 100%;
