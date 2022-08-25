@@ -55,6 +55,17 @@ body {
   display: none !important;
 }
 
+@media (min-width: 900px) {
+  .hide-lg {
+    display: none !important
+  }
+}
+@media (max-width: 899px) {
+  .hide-sm {
+    display: none !important
+  }
+}
+
 .text-center {
   text-align: center;
   margin-left: auto;
