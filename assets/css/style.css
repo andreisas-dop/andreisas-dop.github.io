@@ -629,7 +629,7 @@ header, footer {
    display: flex;
    box-sizing: border-box;
    vertical-align: top;
-   margin-top: 80px;
+   margin-top: 40px;
 }
 
 .contact {
