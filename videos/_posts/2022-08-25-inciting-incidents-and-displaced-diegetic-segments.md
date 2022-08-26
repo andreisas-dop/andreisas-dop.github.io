@@ -8,20 +8,24 @@ We open on a 20-something Keanu Reeves with tarmac sliding behind him at a nause
  
 Cut to: 20 years later. An older, wearier Keanu is [mowing down](https://en.wikipedia.org/wiki/John_Wick_(film)) an unstoppable deluge of faceless flunkies with delicious precision. This enthralling exercise in ultraviolence is rooted in one man's attempt to take an arguably exaggerated revenge upon those who broke into his home, stole his prized property and killed his canine companion.
 
+<div>
 <div class="left-img">
 <img src="/assets/img/blog/001.01YoungKeanu.jpg">
 </div>
 <div class="right-img">
 <img src="/assets/img/blog/001.02OldKEanu.jpg">
 </div>
+</div>
  
 We switch the channel and Richard Strauss' ["Thus Spoke Zarathustra"](https://www.youtube.com/watch?v=IFPwm0e_K98) eases us into Stanley Kubrick's equally adored and maligned masterpiece, 2001 a Space Odyssey. As we get past the oddity of seeing men in ape suits re-interpret the story of Cain and Abel, the film throws at us one of the best cuts in the history of cinema:  An ape throws their first weapon towards the heavens in celebration of the success of their "mechanized” violence.  Cut to: a military space satellite hovering menacingly in the vacuum of space millennia later.
 
+<div>
 <div class="left-img">
 <img src="/assets/img/blog/001.03Bone.jpg">
 </div>
 <div class="right-img">
 <img src="/assets/img/blog/001.04SpaceCanon.jpg">
+</div>
 </div>
  
 An observant reader might discover in the above some underlying commentary on the phase transition within the chosen subjects and approaches of film practice. This line of enquiry might require a subsequent in-depth look. The nature and context of plots in works of fiction, how they are presented in and react against popular culture, is a fascinating topic in its own right.
@@ -50,7 +54,7 @@ The years have revealed that I suffer from, amongst other things, a form of [dys
  
 That all changed when I picked up the school's grimy Sony Hi8 camera. It took a veil off from in front of my eyes and gave me the opportunity and later, through a lot of work and dedication, the ability to show everyone how I saw the world, to reflect upon it and to present this reflection up for interpretation, discourse, enjoyment and consumption.
 <div class="right-img">
-<img src="/assets/img/blog/001.07SonyHi8.webp">
+<img src="/assets/img/blog/001.07SonyHi8.webp" width="25%">
 </div>
  
 Film is the biggest gift life has given me, for it challenged my limitations with the limitless realm of ideas and gave me strength from the ineffable plotlines of dreams. It is true that some ideas will never get to escape our subconscious and will evaporate in our sleep like tears in the oven. For some that is maybe for the best. However, the experiences and freedoms this art form has given me are the underlying fabric of my reality.
@@ -64,7 +68,7 @@ And now we fold the narrative. What incited what? Why? Maybe we will find out so
  
 My first "short", "Where?", opened up the floodgates and presented me with a world where my passion and thoughts were not bound by my inability or disability.
 <div class="left-img">
-<img src="/assets/img/blog/001.09HumbleStart.png">
+<img src="/assets/img/blog/001.09HumbleStart.png" width="25%">
 </div>
  
 Fifteen years later, coming almost full circle, the interview opportunity put me in the uncomfortable position of having to write, what is in essence, an essay on myself. And, while I do find that kind of writing repulsive as it feels like an artificial marketing tool or like a self-administered pat on the back, it also made me reassess the power of the written word and the opportunities it presents to my neverending curiosity.
