@@ -53,12 +53,12 @@ body {
   display: none !important;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 993px) {
   .hide-lg {
     display: none !important
   }
 }
-@media (max-width: 899px) {
+@media (max-width: 992px) {
   .hide-sm {
     display: none !important
   }
@@ -86,7 +86,7 @@ body {
 }
 
 article {
-  min-height: calc(100vh - 280px);
+  min-height: calc(100vh - 400px);
 }
 
 footer {
@@ -400,7 +400,7 @@ input[type=text], input[type=submit] {
   width: 100%;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 767px) {
   .single-video-wrapper {
     width: 100%;
     padding-bottom: 56.25%; /* 16:9 aspect ratio so vids are full width */
@@ -410,7 +410,7 @@ input[type=text], input[type=submit] {
     background: #fcfefd;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .single-video-wrapper {
     padding-bottom: 37%;
   }
@@ -495,7 +495,7 @@ input[type=text], input[type=submit] {
   }
 
   .image-gallery a, .image-gallery div {
-    width: calc(85vw /2);
+    width: 50%;
   }
 }
 
@@ -553,23 +553,33 @@ input[type=text], input[type=submit] {
   max-height: 100%;
   max-width: 100%;
 }
-.fullscreen a {
-  position: absolute;
-  mix-blend-mode: difference;
+.fullscreen a, .fullscreen a span {
   color: #dcdedd;
   font-family: 'Chalet60';
   font-weight: 900;
   font-size: 36px;
-  cursor: pointer;
 }
 .fullscreen a:hover { text-decoration:none }
 
+.fullscreen a {
+  position: absolute;
+  mix-blend-mode: difference;
+  cursor: pointer;
+}
 .fullscreen #prev-gallery,
 .fullscreen #next-gallery {
-  top: calc(50vh - 36px);
+  height: calc(80vh - 72px);
+  width: 100px;
 }
-.fullscreen #prev-gallery { left: 20px; }
-.fullscreen #next-gallery { right: 20px; }
+.fullscreen #prev-gallery span,
+.fullscreen #next-gallery span {
+  position: absolute;
+  top: calc(40vh - 36px);
+}
+.fullscreen #prev-gallery span { left:  20px; }
+.fullscreen #next-gallery span { right: 20px; }
+.fullscreen #prev-gallery { left:  0px; }
+.fullscreen #next-gallery { right: 0px; }
 .fullscreen #exit-gallery { top: 0px; right: 20px; }
 
 .fullscreen .watermark {
@@ -581,17 +591,11 @@ input[type=text], input[type=submit] {
 
 
 /* Video title hover on video gallery item */
+.video-gallery a > h2,
+.video-gallery a > h4,
 .video-gallery a:hover > h2,
 .video-gallery a:hover > h4 {
   transition: all 1s ease-in-out;
-  /*display: block;*/
-  opacity: 1;
-}
-.video-gallery a > h2,
-.video-gallery a > h4 {
-  transition: all 1s ease-in-out;
-  /*display: none;*/
-  opacity: 0;
 }
 
 .video-gallery h2 {
@@ -599,17 +603,10 @@ input[type=text], input[type=submit] {
   display: block;
   color: #fff;
   letter-spacing: 1.5px;
+  word-spacing: 2px;
   text-shadow: 0 0 20px #000;
-  transition: all 1s ease-in-out;
   margin-bottom: 0;
 }
-
-@media screen and (min-width: 768px) {
-  .video-gallery h2.vertical-center {
-    margin-top: -30%;
-  }
-}
-
 .video-gallery h4 {
   margin-top: 0;
   display: block;
@@ -617,11 +614,27 @@ input[type=text], input[type=submit] {
   text-shadow: 0 0 20px #000;
   letter-spacing: 0;
   font-size: 17px;
-  transition: all 1s ease-in-out;
   margin-bottom: calc(25% - 65px);
 }
 
 
+/* different behaviour on desktop vs mobile, text always on in mobile */
+@media screen and (min-width: 768px) {
+  .video-gallery a:hover > h2,
+  .video-gallery a:hover > h4 {
+    opacity: 1;
+  }
+  .video-gallery a > h2,
+  .video-gallery a > h4 {
+    opacity: 0;
+  }
+
+  .video-gallery h2.vertical-center {
+    margin-top: -40%;
+  }
+}
+
+/* headings on each page */
 .video-gallery-body h1, .photo-item-body h1 {
   margin-top: 40px;
   margin-bottom: 0;
@@ -666,7 +679,8 @@ input[type=text], input[type=submit] {
   margin-bottom: 0;
 }
 
-@media (max-width: 899px) {
+/* chosen as 992 as it makes contact page symmetric */
+@media (max-width: 992px) {
   .about-page {
     flex-direction: column;
   }
@@ -691,7 +705,7 @@ input[type=text], input[type=submit] {
     width: 100%;
   }
 }
-@media (min-width: 900px) {
+@media (min-width: 993px) {
   .about-page {
     flex-direction: row;
   }
@@ -725,12 +739,11 @@ input[type=text], input[type=submit] {
   margin-top: 40px;
   margin-bottom: 0;
 }
-
 .essay p {
   text-align: justify
 }
 
-@media (min-width: 900px) {
+@media (min-width: 768px) {
   .essay-list img {
     width: 30%;
     margin-right: 30px;
@@ -754,5 +767,11 @@ input[type=text], input[type=submit] {
   .essay .left-img img {
     float: left;
     margin-right: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .essay img {
+     width: 100%;
+     margin-bottom: 20px;
   }
 }
