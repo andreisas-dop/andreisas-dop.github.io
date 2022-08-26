@@ -251,13 +251,12 @@ h3, h3 a {
   font-family: 'Chalet80';
   letter-spacing: 2px;
   font-weight: bold;
-  font-size: 1.3em;
+  font-size: 1.15em;
 }
 
-.essay-body h3, .essay-body h3 a {
-  color: #8a2a2b;
+.essay h3, .essay h3 a {
+  color: #b5201b;
 }
-
 
 h1, h1 a, h1 a:hover, h1 a:visited,
 h2, h2 a, h2 a:hover, h2 a:visited,
@@ -273,7 +272,7 @@ h1, h1 a {
   margin-top: 30px;
 }
 
-body, p, li, span, ol, ul, table, a {
+body, p, li, span, ol, ul, table, a, input, button {
   font-size: 18px;
   font-family: 'Chalet60';
   letter-spacing: 1px;
@@ -303,14 +302,6 @@ strong {
   transition: all 0.4s ease-in-out;
 }
 
-/* ---------------------------------- buttons */
-input[type=text], input[type=submit] {
-  padding: 5px 10px;
-  font-family: 'Chalet80';
-  font-size: 18px;
-  border: 1px solid black;
-}
-
 
 /* ---------------------------------- colours */
 body {
@@ -337,10 +328,27 @@ header, footer {
   color: #4e4946;
 }
 
+.social a img:hover {
+  filter: invert(15%) sepia(48%) saturate(6289%) hue-rotate(353deg) brightness(93%) contrast(89%);
+}
+
+
+
+/* ---------------------------------- buttons */
+.button, input[type=text], input[type=submit] {
+  border: 1px solid #212322;
+  color: #212322;
+  font-weight: normal;
+  background-color: transparent;
+}
+
+input[type=text], input[type=submit] {
+  padding: 5px 20px;
+}
+
 .button {
   padding: 4px 10px 6px 10px;
   letter-spacing: 1px;
-  border: 1px solid #212322;
   display: block
 }
 
@@ -622,7 +630,17 @@ header, footer {
 }
 
 
-/* Page content layout
+.video-gallery-body h1, .photo-item-body h1 {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.video-item-body h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* About and contact pages layout
  * ----------------------------------------------
  */
 .about-page {
@@ -708,21 +726,33 @@ header, footer {
   }
 }
 
-.video-gallery-body h1 {
+/* Essay list and individual essay pages layout
+ * ----------------------------------------------
+ */
+.essay h1 {
   margin-top: 40px;
   margin-bottom: 0;
 }
 
-.video-item-body h2 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-.photo-item-body h1, .essay-body h1 {
-  margin-top: 80px;
-  margin-bottom: 0;
-}
-
-.essay-body p {
+.essay p {
   text-align: justify
+}
+
+@media (min-width: 900px) {
+  .essay-list img {
+    width: 30%;
+    margin-right: 30px;
+    float: left;
+  }
+
+  .essay .right-img img {
+    width: 50%;
+    float: right;
+    margin-left: 30px;
+  }
+  .essay .left-img img {
+    width: 50%;
+    float: left;
+    margin-right: 30px;
+  }
 }
