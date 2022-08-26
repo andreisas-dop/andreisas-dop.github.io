@@ -1,0 +1,104 @@
+/* Full-width video & images
+ * ----------------------------------------------
+ */
+#home-slide {
+  width: 100vw;
+  transition: background 1s ease-in-out;
+  background-size :cover;
+  background-position: center;
+}
+
+@media (max-width: 767px) {
+  #home-slide {
+    height: calc((100vw - 60px) / 4 * 5);
+    background-image: url(/assets/img/home/S1.jpg);
+    background-image: url('/assets/img/home/S2.jpg'),
+      url('/assets/img/home/S3.jpg' ),
+      url('/assets/img/home/S4.jpg' ),
+      url('/assets/img/home/S5.jpg' ),
+      url('/assets/img/home/S6.jpg' ),
+      url('/assets/img/home/S7.jpg' ),
+      url('/assets/img/home/S8.jpg' ),
+      url('/assets/img/home/S9.jpg' ),
+      url('/assets/img/home/S10.jpg'),
+      url('/assets/img/home/S11.jpg'),
+      url('/assets/img/home/S12.jpg'),
+      url('/assets/img/home/S13.jpg'),
+      url('/assets/img/home/S14.jpg'),
+      url('/assets/img/home/S15.jpg'),
+      url('/assets/img/home/S16.jpg'),
+      url('/assets/img/home/S17.jpg'),
+      url('/assets/img/home/S18.jpg'),
+      url('/assets/img/home/S19.jpg'),
+      url('/assets/img/home/S20.jpg'),
+      url('/assets/img/home/S21.jpg'),
+      url('/assets/img/home/S22.jpg'),
+      url('/assets/img/home/S23.jpg'),
+      url('/assets/img/home/S24.jpg'),
+      url('/assets/img/home/S25.jpg'),
+      url('/assets/img/home/S26.jpg'),
+      url('/assets/img/home/S27.jpg'),
+      url('/assets/img/home/S28.jpg'),
+      url('/assets/img/home/S29.jpg'),
+      url('/assets/img/home/S30.jpg'),
+      url('/assets/img/home/S31.jpg'),
+      url('/assets/img/home/S32.jpg'),
+      url('/assets/img/home/S33.jpg');
+    }
+  }
+}
+@media (min-width: 768px) {
+  #home-slide {
+    height: calc(100vw / 12 * 5);
+    background-image: url(/assets/img/home/L1.jpg);
+    background-image: url('/assets/img/home/L2.jpg'),
+      url('/assets/img/home/L3.jpg' ),
+      url('/assets/img/home/L4.jpg' ),
+      url('/assets/img/home/L5.jpg' ),
+      url('/assets/img/home/L6.jpg' ),
+      url('/assets/img/home/L7.jpg' ),
+      url('/assets/img/home/L8.jpg' ),
+      url('/assets/img/home/L9.jpg' ),
+      url('/assets/img/home/L10.jpg'),
+      url('/assets/img/home/L11.jpg'),
+      url('/assets/img/home/L12.jpg'),
+      url('/assets/img/home/L13.jpg'),
+      url('/assets/img/home/L14.jpg'),
+      url('/assets/img/home/L15.jpg'),
+      url('/assets/img/home/L16.jpg'),
+      url('/assets/img/home/L17.jpg'),
+      url('/assets/img/home/L18.jpg'),
+      url('/assets/img/home/L19.jpg'),
+      url('/assets/img/home/L20.jpg'),
+      url('/assets/img/home/L21.jpg'),
+      url('/assets/img/home/L22.jpg'),
+      url('/assets/img/home/L23.jpg'),
+      url('/assets/img/home/L24.jpg'),
+      url('/assets/img/home/L25.jpg'),
+      url('/assets/img/home/L26.jpg'),
+      url('/assets/img/home/L27.jpg'),
+      url('/assets/img/home/L28.jpg'),
+      url('/assets/img/home/L29.jpg'),
+      url('/assets/img/home/L30.jpg'),
+      url('/assets/img/home/L31.jpg'),
+      url('/assets/img/home/L32.jpg'),
+      url('/assets/img/home/L33.jpg')
+      url('/assets/img/home/L34.jpg'),
+      url('/assets/img/home/L35.jpg'),
+      url('/assets/img/home/L36.jpg'),
+      url('/assets/img/home/L37.jpg'),
+      url('/assets/img/home/L38.jpg'),
+      url('/assets/img/home/L39.jpg'),
+      url('/assets/img/home/L40.jpg'),
+      url('/assets/img/home/L41.jpg'),
+      url('/assets/img/home/L42.jpg'),
+      url('/assets/img/home/L43.jpg');
+  }
+}
+
+@media (max-width:767px) {
+  #home-slide {
+    width: calc(100vw - 2 * 30px);
+  }
+}
+
