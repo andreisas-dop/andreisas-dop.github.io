@@ -1,17 +1,15 @@
 @font-face {
-    font-family: 'Chalet80';
-    src: url('../fonts/ChaletLondonEighty.woff2') format('woff2'),
-         url('../fonts/ChaletLondonEighty.woff') format('woff'),
-         url('../fonts/ChaletLondonEighty.otf') format('otf');
+    font-family: 'Chalet70';
+    src: url('../fonts/ChaletLondonSeventyAS.woff2') format('woff2'),
+         url('../fonts/ChaletLondonSeventyAS.otf') format('otf');
     font-weight: normal;
     font-style: normal;
 
 }
 @font-face {
-    font-family: 'Chalet80';
-    src: url('../fonts/ChaletNewYorkEighty.woff2') format('woff2'),
-         url('../fonts/ChaletNewYorkEighty.woff') format('woff'),
-         url('../fonts/ChaletNewYorkEighty.otf') format('otf');
+    font-family: 'Chalet70';
+    src: url('../fonts/ChaletNewYorkSeventyAS.woff2') format('woff2'),
+         url('../fonts/ChaletNewYorkSeventyAS.otf') format('otf');
     font-weight: bold;
     font-style: normal;
 
@@ -195,8 +193,8 @@ nav {
 }
 @media screen and (min-width: 1350px) {
   nav .page-link {
-    padding: 4px 10px 6px 10px;
-    font-family: 'Chalet80';
+    padding: 6px 10px 4px 10px;
+    font-family: 'Chalet70';
     letter-spacing: 1px;
     font-size: 18px;
     margin-left: 10px !important;
@@ -248,8 +246,8 @@ h1, h1 a, h2, h2 a {
 }
 
 h3, h3 a {
-  font-family: 'Chalet80';
-  letter-spacing: 2px;
+  font-family: 'Chalet70';
+  letter-spacing: 2.3px;
   font-weight: bold;
   font-size: 1.15em;
 }
