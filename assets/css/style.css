@@ -97,6 +97,10 @@ article {
 footer {
   padding: 0 30px;
 }
+footer p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 
 /* -------------------------- header & footer */
@@ -173,7 +177,10 @@ nav {
   }
   .site-nav input ~ .trigger {
     clear:both;
-    display:none
+    display:none;
+  }
+  .site-nav input ~ .trigger a {
+    font-family: 'Chalet70';
   }
   .site-nav input:checked ~ .trigger {
     display: block;
