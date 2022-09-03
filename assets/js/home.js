@@ -30,6 +30,6 @@ window.onload = function() {
     length = images.length;
     var elem = document.getElementById('home-slide');
     if (elem) {
-        window.setInterval(changeImage, 3000);
+        window.setInterval(changeImage, 5000);
     }
 }
