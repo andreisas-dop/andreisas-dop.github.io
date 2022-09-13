@@ -1,7 +1,7 @@
 var images = [];
 var img = 1;
 var length;
-var elem = document.getElementById('home-slide');
+var elem;
 
 function getImages(mobile) {
   if (mobile) {
@@ -16,20 +16,28 @@ function getImages(mobile) {
   }
 }
 
-function changeImage()
-{
+function changeImage() {
     var old = img
     while (old == img) {
         img = Math.floor( Math.random( ) * length );
     }
-    elem.style.backgroundImage="url(" + images[img] + ")";
+    var imgElem = document.createElement("img");
+    imgElem.src = images[img];
+    imgElem.classList.add('fade');
+    elem.appendChild(imgElem);
 }
 
 window.onload = function() {
     getImages(window.innerWidth >= 768 ? 0 : 1);
     length = images.length;
-    var elem = document.getElementById('home-slide');
+    elem = document.getElementById('home-slide');
+    img = Math.floor( Math.random( ) * length );
+
+    var imgElem = document.createElement("img");
+    imgElem.src = images[img];
+    elem.appendChild(imgElem);
+
     if (elem) {
-        window.setInterval(changeImage, 5000);
+        window.setInterval(changeImage, 4000);
     }
 }
