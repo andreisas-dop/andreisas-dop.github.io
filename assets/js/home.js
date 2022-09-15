@@ -38,6 +38,6 @@ window.onload = function() {
     elem.appendChild(imgElem);
 
     if (elem) {
-        window.setInterval(changeImage, 4000);
+        window.setInterval(changeImage, 5000);
     }
 }
