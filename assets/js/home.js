@@ -35,9 +35,9 @@ window.onload = function() {
 
     var imgElem = document.createElement("img");
     imgElem.src = images[img];
-    elem.appendChild(imgElem);
 
     if (elem) {
+        elem.appendChild(imgElem);
         window.setInterval(changeImage, 5000);
     }
 }
