@@ -88,3 +88,15 @@ The writings that will follow will take the form of a loose collection of essays
 I can't make any promises about the regularity of the aforementioned musings, their quality, use or even fitness for human consumption. However what I can guarantee is that however many, however often they might appear, these writings will be an honest representation of my beautiful dark twisted fantasy.
 
 ![CameramansCreed](/assets/img/blog/001.12.Creed.jpg)
+
+Related Filmography:
+
+- [Speed](https://www.imdb.com/title/tt0111257/) (1994) dir. Jan de Bont
+- [John Wick](https://www.imdb.com/title/tt2911666/) (2016) dir. Chad Stahelski
+- [2001: A Space Odyssey](https://www.imdb.com/title/tt0062622/) (1968) dir Stanley Kubrick
+- [Jaws](https://www.imdb.com/title/tt0073195/) (1975) dir. Steven Spielberg
+- [No Country for Old Men](https://www.imdb.com/title/tt0477348/) (2007) dir. Ethan Coen, Joel Coen
+- [Mister Lonely](https://www.imdb.com/title/tt0475984/) (2007) dir. Harmony Korine
+- [Living in Oblivion](https://www.imdb.com/title/tt0113677/) (1995) dir. Tom DiCillo
+- [Fear and Loathing in Las Vegas](https://www.imdb.com/title/tt0120669/) (1998) dir. Terry Gilliam
+- [Full Metal Jacket](https://www.imdb.com/title/tt0093058/) (1987) dir. Stanley Kubrick
