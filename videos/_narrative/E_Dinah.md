@@ -22,4 +22,21 @@ stills:
   - /assets/img/stills/Dinah_01.jpg
 ---
 
-Work in progress
+Awards:
+
+**WINNER**
+Paris In Love Film Festival - Best International Film
+
+**HONOURABLE MENTION**
+Hollywood Gold Awards
+
+**FINALIST**
+London International Monthly Film Festival
+
+**OFFICIAL SELECTIONS**
+Silicon Beach Film Festival®
+London Movie Awards
+Shockfest Film Festival
+Paris Film Awards
+LA Femme International Film Festival
+
