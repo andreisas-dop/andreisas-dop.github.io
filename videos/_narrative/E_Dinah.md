@@ -22,21 +22,43 @@ stills:
   - /assets/img/stills/Dinah_01.jpg
 ---
 
-Awards:
+<p>&nbsp;</p>
 
-**WINNER**
-Paris In Love Film Festival - Best International Film
+<h2 style='margin:0 auto'>Awards</h2>
 
-**HONOURABLE MENTION**
-Hollywood Gold Awards
+<div class='col-3'>
+<div class='inner'>
+<div>
+<a href="https://filmfreeway.com/ParisInLoveFilmFestival" target="_blank"><h2>
+Paris In Love Film Festival</h2></a>
+<p>Best International Film</p>
+</div>
 
-**FINALIST**
-London International Monthly Film Festival
+<div>
+<a href="https://hollywoodgoldawards.com/" target="_blank"><h2>Hollywood Gold Awards</h2></a>
+<p>Honourable Mention</p>
+</div>
 
-**OFFICIAL SELECTIONS**
-Silicon Beach Film Festival®
-London Movie Awards
-Shockfest Film Festival
-Paris Film Awards
-LA Femme International Film Festival
+<div>
+<a href="https://www.siliconbeachfilmfestival.com/" target="_blank"><h2>Silicon Beach Film Festival®</h2></a>
+<p>Official Selection</p>
+</div>
+</div>
 
+<div class='inner'>
+<div>
+<a href="https://londonmovieawards.com/" target="_blank"> <h2>London Movie Awards</h2></a>
+<p>Official Selection</p>
+</div>
+
+<div>
+<a href="https://www.shockfilmfest.com/" target="_blank"><h2>Shockfest Film Festival</h2></a>
+<p>Official Selection</p>
+</div>
+
+<div>
+<a href="https://lafemme.org/" target="_blank"><h2>LA Femme International Film Festival</h2></a>
+<p>Official Selection</p>
+</div>
+</div>
+</div>

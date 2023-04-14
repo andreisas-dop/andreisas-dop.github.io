@@ -657,6 +657,27 @@ input[type=text], input[type=submit] {
   margin-bottom: 0;
 }
 
+/* 3-column elements e.g. for awards */
+.col-3 .inner {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 80px;
+  flex-direction: row;
+}
+.col-3 .inner div {
+  width: 33%;
+}
+.col-3 .inner h2, p {
+  text-align: center;
+  margin: 0 auto;
+}
+.col-3 .inner img {
+  margin-bottom: -80px;
+  opacity: 0.15;
+}
+
+
 /* About and contact pages layout
  * ----------------------------------------------
  */
