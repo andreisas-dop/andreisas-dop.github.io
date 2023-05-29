@@ -710,6 +710,10 @@ input[type=text], input[type=submit] {
   margin-top: 10px;
   margin-bottom: 0;
 }
+.about-page p {
+  text-align: justify;
+  margin-bottom: 24px !important;
+}
 
 /* chosen as 992 as it makes contact page symmetric */
 @media (max-width: 992px) {
@@ -774,7 +778,8 @@ input[type=text], input[type=submit] {
   margin-bottom: 0;
 }
 .essay p {
-  text-align: justify
+  text-align: justify;
+  margin-bottom: 20px !important;
 }
 
 @media (min-width: 768px) {
