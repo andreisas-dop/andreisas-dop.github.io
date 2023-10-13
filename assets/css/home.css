@@ -19,6 +19,9 @@
   #home-slide {
     height: calc(100vw / 12 * 5);
   }
+  #home-slide img {
+    width: 100vw;
+  }
 }
 
 #home-slide img {
