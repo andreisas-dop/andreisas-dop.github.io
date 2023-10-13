@@ -48,6 +48,13 @@ body {
   margin: 0;
 }
 
+/* the clearfix will make the parent consider the floating children */
+.clearfix:after {
+  content:"";
+  clear:both;
+  display:block;
+}
+
 /* generic modifiers */
 .hide {
   display: none !important;
@@ -262,10 +269,6 @@ h3, h3 a {
   letter-spacing: 2.3px;
   font-weight: bold;
   font-size: 1.15em;
-}
-
-.essay h3, .essay h3 a {
-  color: #b5201b;
 }
 
 h1, h1 a, h1 a:hover, h1 a:visited,
@@ -773,24 +776,48 @@ input[type=text], input[type=submit] {
 /* Essay list and individual essay pages layout
  * ----------------------------------------------
  */
-.essay h1 {
-  margin-top: 40px;
+.essay h1.title {
+  margin-top: 80px;
   margin-bottom: 0;
 }
+.essay h3, .essay h3 a, .essay p a {
+  color: #b5201b;
+}
+.essay h3 {
+  font-size: 1.5em;
+}
+.essay h3 a {
+  margin-bottom: 5px;
+  font-size: 0.95em;
+}
+
 .essay p {
   text-align: justify;
   margin-bottom: 20px !important;
+}
+.essay li p {
+  margin-bottom: 5px !important;
+}
+.essay li p a {
+  color: #212322;
+}
+.essay p .greek {
+  font-family: 'Sans Serif';
+  font-size: 1.2em;
 }
 
 @media (min-width: 768px) {
   .essay-list img {
     width: 30%;
+    aspect-ratio: 1.85/1;
+    object-fit: cover;
     margin-right: 30px;
     float: left;
   }
 
   .essay p img, .essay .text-center img {
     margin: 30px auto;
+    display: block;
   }
   .essay .two-img {
     display: flex;
@@ -814,3 +841,4 @@ input[type=text], input[type=submit] {
      margin-bottom: 20px;
   }
 }
+

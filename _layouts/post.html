@@ -5,7 +5,7 @@ layout: default
 <article itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="wrapper essay">
-    <h1 itemprop="name headline">{{ page.title | escape }}</h1>
+    <h1 itemprop="name headline" class="title">{{ page.title | escape }}</h1>
     <h4>{{ page.subtitle | escape }}</h4>
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
