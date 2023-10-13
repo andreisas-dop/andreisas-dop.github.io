@@ -2,7 +2,7 @@
 layout: post
 title: Tales From The Barracks
 description: Everone's journey towards cinema is different and most of them don't play in a linear three-act structure. Filmschool is a highly debated plot point in many of our stories and in the following text, I will explore my experiences.
-main_img: assets/img/blog/002.15Thumb.jpg
+main_img: assets/img/blog/001.12.Creed.jpg
 ---
 
 Filmmaking is an art form that sometimes evades simple definition. It has, historically, been an exclusivist medium, where mostly men of privilege got to explore and present reflections of reality manufactured in the image of their own psyches. Much of this exclusivity came from the technological and material costs and from the power structures that decided who had access to the industry.
