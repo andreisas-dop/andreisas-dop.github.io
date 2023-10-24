@@ -272,11 +272,10 @@ to extract a
 my opinion, that is a slight cheat as it contradicts [the
 Nyquist--Shannon sampling
 theorem](https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem){:target="_blank"},
-which (by oversimplifying in order to spare you a lot of maths and stats
-talk) tells us that you can expect to get about 0.7 of the resolution of
+which, while grossly oversimplifying, tells us that you can expect to get about 0.7 of the resolution of
 your [RAW image](https://en.wikipedia.org/wiki/Raw_image_format){:target="_blank"} in your
 final [raster](https://en.wikipedia.org/wiki/Raster_graphics){:target="_blank"} from a
-Bayer filtered sensor. 
+Bayer-filtered sensor. 
 
 I know some fantastic artists out there who still shoot on a
 10-year-old [Sony a7S I](https://www.sony.co.uk/electronics/support/e-mount-body-ilce7-series/ilce-7s){:target="_blank"} with its 12MP sensor due to its portability, superlative low-light
@@ -594,7 +593,7 @@ recommend any one camera, but I will try to provide some options with
 the caveat that they are only valid at the time of writing and will be
 biased by my own experience, artistic philosophy and personal taste. As
 much as I try to be objective, there are platforms that I know better
-than others, and I am weary of recommending equipment that I have not
+than others, and I am wary of recommending equipment that I have not
 tested myself.
 
 Cameras that output great images **without processing**:
