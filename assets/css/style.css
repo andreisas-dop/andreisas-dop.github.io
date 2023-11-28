@@ -72,7 +72,7 @@ body {
 }
 
 .text-center {
-  text-align: center;
+  text-align: center !important;
   margin-left: auto;
   margin-right: auto;
 }
@@ -315,6 +315,10 @@ strong {
   transition: all 0.4s ease-in-out;
 }
 
+.small, .small a {
+  font-size: 16px;
+  opacity: 0.8;
+}
 
 /* ---------------------------------- colours */
 body {
@@ -345,6 +349,12 @@ header, footer {
   filter: invert(15%) sepia(48%) saturate(6289%) hue-rotate(353deg) brightness(93%) contrast(89%);
 }
 
+.grey {
+  color: #8a8b8d;
+}
+.red {
+  color: #b5201b;
+}
 
 
 /* ---------------------------------- buttons */
@@ -365,10 +375,62 @@ input[type=text], input[type=submit] {
   display: block
 }
 
-.grey {
-  color: #8a8b8d;
+
+/* ---------------------------------- forms */
+#section-2, #section-3, #section-4, #section-5 {
+  display: none;
 }
 
+form .col-2 .inner div {
+  width: 49%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+form div {
+  padding-top: 10px;
+}
+
+form .img {
+  width: 100%;
+}
+
+form p {
+    padding: 0;
+    margin: 0;
+}
+form .row {
+  min-width: 600px;
+  width: 70%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+form p {
+    padding-top: 8px;
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="phone"],
+form input[type="number"],
+form input[type="url"],
+form input[type="date"],
+form textarea {
+    margin: 0 auto;
+    font-family: 'chalet60', sans-serif;
+    border: 0;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 28px;
+    border-bottom: 1px solid grey;
+    accent-color: #b5201b;
+    min-width: 300px;
+    outline: none;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+    accent-color: #b5201b;
+    margin-left: 20px;
+}
 
 /* Full-width video & images
  * ----------------------------------------------
@@ -671,7 +733,7 @@ input[type=text], input[type=submit] {
 .col-3 .inner div {
   width: 33%;
 }
-.col-3 .inner h2, p {
+.col-3 .inner h2, .col-3 .inner p {
   text-align: center;
   margin: 0 auto;
 }
@@ -705,7 +767,7 @@ input[type=text], input[type=submit] {
 
 .phonetic {
   height: 1.25em;
-  margin: 0;
+  margin: 0 auto;
   opacity: 0.45;
   display: inline;
 }
@@ -757,6 +819,7 @@ input[type=text], input[type=submit] {
   }
   .about-page .text-center h1, .about-page .text-center h4, .about-page .text-center p {
     width: 80%;
+    margin-left: 0;
   }
   .about-page .left img {
     float: right;
