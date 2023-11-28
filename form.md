@@ -282,7 +282,7 @@ permalink: /form
 
       <p>Please provide any assigned <b>Job Number</b> or <b>PO Number</b> for the project.
       </p>
-      <input type="text" name="Project job/PO number" placeholder="Job/PO number">
+      <input type="text" name="Film/TV Project job/PO number" placeholder="Job/PO number">
     </div>
 
     <div class="row col-2">
@@ -291,13 +291,13 @@ permalink: /form
           <p class="text-right text-center-xs text-center-sm">
           What is the shoot <b>start date</b>?
           </p>
-          <input type="date" name="Shoot start date">
+          <input type="date" name="Film/TV Shoot start date">
         </div>
         <div>
           <p class="text-right text-center-xs text-center-sm">
           What is the shoot <b>wrap date</b>?
           </p>
-          <input type="date" name="Shoot wrap date">
+          <input type="date" name="Film/TV Shoot wrap date">
         </div>
       </div>
     </div>
@@ -310,9 +310,9 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" class="required" value="8+1 SWD"  id="schedule-8"  name="Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)  </label><br/>
-          <input type="radio" required="" class="required" value="10+1 BWD" id="schedule-10" name="Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)</label><br/>
-          <input type="radio" required="" class="required" value="9 CWD"    id="schedule-9"  name="Schedule"> <label>9 Continuous Hours  "On Camera"  (9 CWD)                        </label><br/>
+          <input type="radio" required="" class="required" value="8+1 SWD"  id="schedule-8"  name="Film/TV Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)  </label><br/>
+          <input type="radio" required="" class="required" value="10+1 BWD" id="schedule-10" name="Film/TV Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)</label><br/>
+          <input type="radio" required="" class="required" value="9 CWD"    id="schedule-9"  name="Film/TV Schedule"> <label>9 Continuous Hours  "On Camera"  (9 CWD)                        </label><br/>
         </div>
       </div>
     </div>
@@ -321,7 +321,7 @@ permalink: /form
       <p class="text-right text-center-xs text-center-sm">
       How many <b>prep days</b> are provisioned?
       </p>
-      <input type="number" name="Prep days">
+      <input type="number" name="Film/TV Prep days">
     </div>
 
     <div class="row">
@@ -329,14 +329,14 @@ permalink: /form
       Will <b>post-production consultancy</b> or <b>"wrap days"</b> be required?<br/>
       <span class="small">If yes, please state how many days are expected.</span>
       </p>
-      <input type="number" name="Post-production days">
+      <input type="number" name="Film/TV Post-production days">
     </div>
 
     <div class="row">
       <p class="text-right text-center-xs text-center-sm">
       What is the desired <b>publishing or release date</b>?
       </p>
-      <input type="date" name="Project release date">
+      <input type="date" name="Film/TV Project release date">
     </div>
 
     <div class="row">
@@ -344,7 +344,7 @@ permalink: /form
       Please provide the <b>address</b> of the main shooting location if one has been already selected.<br/>
       <span class="small">If locations have not been booked or selected, we can discuss options to fit the visual aesthetic goals of the project.</span>
       </p>
-      <input type="text" name="Location address" placeholder="Location address">
+      <input type="text" name="Film/TV Location address" placeholder="Location address">
     </div>
 
     <div class="row col-2">
@@ -355,11 +355,11 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" class="required" name="Budget band" id="budget-850k"  value="Up to £850,000 p/h        "> <label>Up to £850,000 p/h        </label><br/>
-          <input type="radio" required="" class="required" name="Budget band" id="budget-3m"    value="£850,000 to £3,000,000 p/h"> <label>£850,000 to £3,000,000 p/h</label><br/>
-          <input type="radio" required="" class="required" name="Budget band" id="budget-10m"   value="£3,000,000 to £10,000,000 "> <label>£3,000,000 to £10,000,000 </label><br/>
-          <input type="radio" required="" class="required" name="Budget band" id="budget-30m"   value="£10,000 to £30,000,000    "> <label>£10,000 to £30,000,000    </label><br/>
-          <input type="radio" required="" class="required" name="Budget band" id="budget-above" value="Above £30,000,000         "> <label>Above £30,000,000         </label><br/>
+          <input type="radio" required="" class="required" name="Film/TV Budget band" id="budget-850k"  value="Up to £850,000 p/h        "> <label>Up to £850,000 p/h        </label><br/>
+          <input type="radio" required="" class="required" name="Film/TV Budget band" id="budget-3m"    value="£850,000 to £3,000,000 p/h"> <label>£850,000 to £3,000,000 p/h</label><br/>
+          <input type="radio" required="" class="required" name="Film/TV Budget band" id="budget-10m"   value="£3,000,000 to £10,000,000 "> <label>£3,000,000 to £10,000,000 </label><br/>
+          <input type="radio" required="" class="required" name="Film/TV Budget band" id="budget-30m"   value="£10,000 to £30,000,000    "> <label>£10,000 to £30,000,000    </label><br/>
+          <input type="radio" required="" class="required" name="Film/TV Budget band" id="budget-above" value="Above £30,000,000         "> <label>Above £30,000,000         </label><br/>
         </div>
       </div>
     </div>
