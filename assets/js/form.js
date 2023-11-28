@@ -1,9 +1,66 @@
 var remove_required = function(sectionId) {
-  inputs = document.querySelectorAll('#' + sectionId + ' input');
+  var inputs = document.querySelectorAll('#' + sectionId + ' input');
 
-  for (i=0; i<inputs.length; i++) {
+  for (var i=0; i<inputs.length; i++) {
     inputs[i].removeAttribute('required');
   }
+}
+
+var restore_required = function(sectionId) {
+  var inputs = document.querySelectorAll('#' + sectionId + ' input');
+
+  for (var i=0; i<inputs.length; i++) {
+    if (inputs[i].classList.contains('required')) {
+      inputs[i].required = true;
+    }
+  }
+}
+
+var clear_section = function(sectionId) {
+  var inputs = document.querySelectorAll('#' + sectionId + ' input');
+  for (var i = 0; i<inputs.length; i++) {
+    switch (inputs[i].type) {
+      case 'text':
+	  case 'date':
+      case 'number':
+        inputs[i].value = '';
+        break;
+      case 'radio':
+      case 'checkbox':
+        inputs[i].checked = false;
+    }
+  }
+}
+
+var section_back = function(id) {
+  curr_id = "section-" + id;
+
+  switch (id) {
+    case 2:
+      nid = 1;
+      break;
+    case 3:
+      nid = 1;
+      break;
+    case 4:
+        var type = document.querySelector('input[name="Content type"]:checked').id;
+        if ((type == "content-type-film-tv") || (type == "content-type-broadcast")) {
+            nid = 3;
+        }
+        else {
+            nid = 2;
+        }
+        break;
+      break;
+    }
+
+    next_id = "section-" + nid;
+
+    curr = document.getElementById(curr_id);
+    next = document.getElementById(next_id);
+
+    curr.style.display = 'none';
+    next.style.display = 'block';
 }
 
 var section_forward = function(id) {
@@ -31,12 +88,16 @@ var section_forward = function(id) {
       case 1:
         var type = document.querySelector('input[name="Content type"]:checked').id;
         if ((type == "content-type-film-tv") || (type == "content-type-broadcast")) {
-            nid = 3;
-            remove_required('section-2');
+          nid = 3;
+          remove_required('section-2');
+		  clear_section('section-2');
+          restore_required('section-3');
         }
         else {
-            nid = 2;
-            // remove_required('section-3');
+          nid = 2;
+          remove_required('section-3');
+		  clear_section('section-3');
+          restore_required('section-2');
         }
         break;
       case 2:
@@ -51,7 +112,6 @@ var section_forward = function(id) {
 
     curr = document.getElementById(curr_id);
     next = document.getElementById(next_id);
-    form = document.getElementById('booking');
 
     curr.style.display = 'none';
     next.style.display = 'block';

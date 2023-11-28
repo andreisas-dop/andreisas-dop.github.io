@@ -164,10 +164,10 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" name="Service type" id="service-cinema"   required="" value="Cinematographer / Director of Photography"> <label>Cinematographer / Director of Photography</label><br/>
-          <input type="radio" name="Service type" id="service-operator" required="" value="Camera Operator / Videographer           "> <label>Camera Operator / Videographer           </label><br/>
-          <input type="radio" name="Service type" id="service-post"     required="" value="Post-production Supervisor               "> <label>Post-production Supervisor               </label><br/>
-          <input type="radio" name="Service type" id="service-other"    required="" value="Other                                    "
+          <input type="radio" name="Service type" id="service-cinema"   required="" class="required" value="Cinematographer / Director of Photography"> <label>Cinematographer / Director of Photography</label><br/>
+          <input type="radio" name="Service type" id="service-operator" required="" class="required" value="Camera Operator / Videographer           "> <label>Camera Operator / Videographer           </label><br/>
+          <input type="radio" name="Service type" id="service-post"     required="" class="required" value="Post-production Supervisor               "> <label>Post-production Supervisor               </label><br/>
+          <input type="radio" name="Service type" id="service-other"    required="" class="required" value="Other                                    "
                                                                                    onclick="enable_other(this, 'service-other-text')"> <label>Other</label>:
              <input type="text" name="Service type (other)" id="service-other-text" placeholder="Other service">
         </div>
@@ -199,18 +199,10 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" value="8+1 SWD"     id="schedule-8"     name="Schedule">
-            <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)
-            </label><br/>
-          <input type="radio" required="" value="10+1 BWD"    id="schedule-10"    name="Schedule">
-            <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)
-            </label><br/>
-          <input type="radio" required="" value="9 CWD"       id="schedule-9"     name="Schedule">
-            <label>9 Continuous Hours  "On Camera"  (9 CWD)
-            </label><br/>
-          <input type="radio" required="" value="Other"       id="schedule-other" name="Schedule"
-            onclick="enable_other(this, 'schedule-other-text')">
-            <label>Other</label>:
+          <input type="radio" required="" class="required" value="8+1 SWD"     id="schedule-8"     name="Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Break (8+1 SWD)  </label><br/>
+          <input type="radio" required="" class="required" value="10+1 BWD"    id="schedule-10"    name="Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Break (10+1 BWD)</label><br/>
+          <input type="radio" required="" class="required" value="9 CWD"       id="schedule-9"     name="Schedule"> <label>9 Continuous Hours "On Camera" (9 CWD)                 </label><br/>
+          <input type="radio" required="" class="required" value="Other"       id="schedule-other" name="Schedule"  onclick="enable_other(this, 'schedule-other-text')"> <label>Other</label>:
               <input type="text" name="Schedule (other)" id="schedule-other-text" placeholder="Other schedule">
         </div>
       </div>
@@ -254,24 +246,26 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" name="Budget band" id="budget-1k"      value="Up to £1,000                       "> <label>Up to £1,000                       </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-3k"      value="£1,000 to £3,000                   "> <label>£1,000 to £3,000                   </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-6k"      value="£3,000 to £6,000                   "> <label>£3,000 to £6,000                   </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-12k"     value="£6,000 to £12,000                  "> <label>£6,000 to £12,000                  </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-1k"      value="Up to £1,000                       "> <label>Up to £1,000                       </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-3k"      value="£1,000 to £3,000                   "> <label>£1,000 to £3,000                   </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-6k"      value="£3,000 to £6,000                   "> <label>£3,000 to £6,000                   </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-12k"     value="£6,000 to £12,000                  "> <label>£6,000 to £12,000                  </label><br/>
         </div>
         <div>
-          <input type="radio" required="" name="Budget band" id="budget-50k"     value="£12,000 to £50,000                 "> <label>£12,000 to £50,000                 </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-250k"    value="£50,000 to £250,000                "> <label>£50,000 to £250,000                </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-above"   value="Above £250,000                     "> <label>Above £250,000                     </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-discuss" value="I would like to discuss my options."> <label>I would like to discuss my options.</label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-50k"     value="£12,000 to £50,000                 "> <label>£12,000 to £50,000                 </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-250k"    value="£50,000 to £250,000                "> <label>£50,000 to £250,000                </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-above"   value="Above £250,000                     "> <label>Above £250,000                     </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-discuss" value="I would like to discuss my options."> <label>I would like to discuss my options.</label><br/>
         </div>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row text-center">
       <p>&nbsp;</p>
-      <input type="button" class="button medium text-center" value="Next" onclick="section_forward(2)">
+      <input type="button" class="button inline medium" value="Back" onclick="section_back(2)">
+      &nbsp;
+      <input type="button" class="button inline medium" value="Next" onclick="section_forward(2)">
     </div>
 
   </div>
@@ -316,15 +310,9 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" value="8+1 SWD"  id="schedule-8"  name="Schedule">
-            <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)
-            </label><br/>
-          <input type="radio" required="" value="10+1 BWD" id="schedule-10" name="Schedule">
-            <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)
-            </label><br/>
-          <input type="radio" required="" value="9 CWD"    id="schedule-9"  name="Schedule">
-            <label>9 Continuous Hours  "On Camera"  (9 CWD)
-            </label><br/>
+          <input type="radio" required="" class="required" value="8+1 SWD"  id="schedule-8"  name="Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)  </label><br/>
+          <input type="radio" required="" class="required" value="10+1 BWD" id="schedule-10" name="Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)</label><br/>
+          <input type="radio" required="" class="required" value="9 CWD"    id="schedule-9"  name="Schedule"> <label>9 Continuous Hours  "On Camera"  (9 CWD)                        </label><br/>
         </div>
       </div>
     </div>
@@ -367,19 +355,21 @@ permalink: /form
 
       <div class="inner">
         <div>
-          <input type="radio" required="" name="Budget band" id="budget-850k"  value="Up to £850,000 p/h        "> <label>Up to £850,000 p/h        </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-3m"    value="£850,000 to £3,000,000 p/h"> <label>£850,000 to £3,000,000 p/h</label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-10m"   value="£3,000,000 to £10,000,000 "> <label>£3,000,000 to £10,000,000 </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-30m"   value="£10,000 to £30,000,000    "> <label>£10,000 to £30,000,000    </label><br/>
-          <input type="radio" required="" name="Budget band" id="budget-above" value="Above £30,000,000         "> <label>Above £30,000,000         </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-850k"  value="Up to £850,000 p/h        "> <label>Up to £850,000 p/h        </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-3m"    value="£850,000 to £3,000,000 p/h"> <label>£850,000 to £3,000,000 p/h</label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-10m"   value="£3,000,000 to £10,000,000 "> <label>£3,000,000 to £10,000,000 </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-30m"   value="£10,000 to £30,000,000    "> <label>£10,000 to £30,000,000    </label><br/>
+          <input type="radio" required="" class="required" name="Budget band" id="budget-above" value="Above £30,000,000         "> <label>Above £30,000,000         </label><br/>
         </div>
       </div>
     </div>
 
 
-    <div class="row">
+    <div class="row text-center">
       <p>&nbsp;</p>
-      <input type="button" class="button medium text-center" value="Next" onclick="section_forward(3)">
+      <input type="button" class="button inline medium" value="Back" onclick="section_back(3)">
+      &nbsp;
+      <input type="button" class="button inline medium" value="Next" onclick="section_forward(3)">
     </div>
 
   </div>
@@ -450,9 +440,11 @@ permalink: /form
     </div>
 
 
-    <div class="row">
-        <p>&nbsp;</p>
-        <input type="Submit" value="Submit" class="button medium text-center">
+    <div class="row text-center">
+      <p>&nbsp;</p>
+      <input type="button" class="button inline medium" value="Back" onclick="section_back(4)">
+      &nbsp;
+      <input type="submit" class="button inline medium" value="Submit">
     </div>
 
   </div>

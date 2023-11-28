@@ -358,14 +358,14 @@ header, footer {
 
 
 /* ---------------------------------- buttons */
-.button, input[type=text], input[type=submit] {
+.button, input[type=submit] {
   border: 1px solid #212322;
   color: #212322;
   font-weight: normal;
   background-color: transparent;
 }
 
-input[type=text], input[type=submit] {
+input[type=submit] {
   padding: 5px 20px;
 }
 
@@ -374,6 +374,8 @@ input[type=text], input[type=submit] {
   letter-spacing: 1px;
   display: block
 }
+
+.inline { display: inline-block; }
 
 
 /* ---------------------------------- forms */
