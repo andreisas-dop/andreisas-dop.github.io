@@ -379,34 +379,63 @@ input[type=submit] {
 
 
 /* ---------------------------------- forms */
+form {
+  margin-top: -30px;
+}
 #section-2, #section-3, #section-4, #section-5 {
   display: none;
 }
 
-form .col-2 .inner div {
-  width: 49%;
-  display: inline-block;
-  box-sizing: border-box;
+form .row {
+  margin: 30px auto;
+  padding: 0 10px;
 }
+
+@media (min-width: 600px) {
+  form .row {
+    min-width: 600px;
+    width: 70%;
+    max-width: 900px;
+  }
+  form .col-2 .inner div {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 400px) {
+  form p {
+    text-align: center;
+  }
+  form .inner div {
+    padding-top: 0;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="phone"],
+  form input[type="number"],
+  form input[type="url"],
+  form input[type="date"],
+  form textarea {
+    margin: 0 auto;
+    display: block;
+  }
+  #ratio-other-text, #platform-other-text, #schedule-other-text {
+    display: inline-block;
+    min-width: 240px;
+  }
+}
+
 form div {
   padding-top: 10px;
 }
-
-form .img {
-  width: 100%;
+form img {
+  width: calc(100vw - 20px);
 }
-
 form p {
     padding: 0;
     margin: 0;
-}
-form .row {
-  min-width: 600px;
-  width: 70%;
-  max-width: 900px;
-  margin: 30px auto;
-}
-form p {
     padding-top: 8px;
 }
 form input[type="text"],
@@ -416,7 +445,6 @@ form input[type="number"],
 form input[type="url"],
 form input[type="date"],
 form textarea {
-    margin: 0 auto;
     font-family: 'chalet60', sans-serif;
     border: 0;
     padding-left: 5px;
@@ -424,7 +452,7 @@ form textarea {
     line-height: 28px;
     border-bottom: 1px solid grey;
     accent-color: #b5201b;
-    min-width: 300px;
+    min-width: 290px;
     outline: none;
 }
 
@@ -905,5 +933,10 @@ form input[type="radio"] {
      width: 100%;
      margin-bottom: 20px;
   }
+}
+
+/* 404 page */
+.post-title {
+  margin: 100px auto;
 }
 
