@@ -1,11 +1,13 @@
 ---
 layout: default
 title: Cinematographer Booking Form
-permalink: /form
+permalink: /bookingform
 ---
 
 
-<h1 class="text-center">Cinematographer Booking Form</h1>
+<div class="row">
+   <h1 class="text-center">Cinematographer Booking Form</h1>
+</div>
 
 <form class="" action="https://formspree.io/f/mjvqqwbp" method="POST" id="booking">
 
