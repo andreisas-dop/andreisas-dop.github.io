@@ -61,6 +61,8 @@ var section_back = function(id) {
 
     curr.style.display = 'none';
     next.style.display = 'block';
+
+    window.scrollTo(0, 0);
 }
 
 var section_forward = function(id) {
@@ -115,6 +117,8 @@ var section_forward = function(id) {
 
     curr.style.display = 'none';
     next.style.display = 'block';
+
+    window.scrollTo(0, 0);
   }
 }
 
