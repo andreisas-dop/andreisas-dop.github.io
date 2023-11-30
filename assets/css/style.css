@@ -404,7 +404,7 @@ form .row {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 599px) {
   form p {
     text-align: center;
   }

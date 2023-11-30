@@ -312,9 +312,9 @@ permalink: /bookingform
 
       <div class="inner">
         <div>
-          <input type="radio" required="" class="required" value="8+1 SWD"  id="schedule-8"  name="Film/TV Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Breschedule-ak (8+1 SWD)  </label><br/>
-          <input type="radio" required="" class="required" value="10+1 BWD" id="schedule-10" name="Film/TV Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Brschedule-eak (10+1 BWD)</label><br/>
-          <input type="radio" required="" class="required" value="9 CWD"    id="schedule-9"  name="Film/TV Schedule"> <label>9 Continuous Hours  "On Camera"  (9 CWD)                        </label><br/>
+          <input type="radio" required="" class="required" value="8+1 SWD"  id="schedule-8"  name="Film/TV Schedule"> <label>8 Hours "On Camera" with 1 Hour Lunch Break (8+1 SWD)  </label><br/>
+          <input type="radio" required="" class="required" value="10+1 BWD" id="schedule-10" name="Film/TV Schedule"> <label>10 Hours "On Camera" with 1 Hour Lunch Break (10+1 BWD)</label><br/>
+          <input type="radio" required="" class="required" value="9 CWD"    id="schedule-9"  name="Film/TV Schedule"> <label>9 Continuous Hours  "On Camera"  (9 CWD)               </label><br/>
         </div>
       </div>
     </div>
