@@ -256,6 +256,7 @@ ul.social li {
 /* Typography, colours & styles
  * ----------------------------------------------
  */
+a { cursor: pointer; }
 
 h1, h1 a, h2, h2 a {
   font-family: ChaletComprime;
@@ -320,6 +321,23 @@ strong {
   opacity: 0.8;
 }
 
+table { border: 0px; }
+table td:first-child { font-weight: bold; }
+
+table td {
+    border: 0px;
+    padding: 3px 8px !important;
+}
+thead {
+    font-family: 'Chalet60' !important;
+    font-weight: bold;
+    border-top: 2.5px solid #b5201b !important;
+    border-bottom: 2.5px solid #b5201b !important;
+    padding: 8px 8px 5px 8px !important;
+}
+
+
+
 /* ---------------------------------- colours */
 body {
   background: #fcfefd;
@@ -377,6 +395,25 @@ input[type=submit] {
 
 .inline { display: inline-block; }
 
+.link-group {
+  display: block;
+  width: 830px;
+  margin: 0 auto;
+}
+.link-group a {
+  padding: 0 10px;
+  display: inline-block;
+}
+@media (max-width: 900px) {
+  .link-group {
+    width: 100%;
+  }
+  .link-group a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
 
 /* ---------------------------------- forms */
 form {
