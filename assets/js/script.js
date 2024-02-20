@@ -73,3 +73,20 @@ var exitscreen = (function() {
         }
     }
 });
+
+var choose_category = (function(e, className) {
+	lks = document.getElementsByClassName('link-group')[0].children;
+	for (i = 0; i < lks.length; i++) {
+        lks[i].classList.remove('red');
+	}
+	e.classList.add('red');
+
+    trs = document.getElementsByClassName('credit');
+    for (i = 0; i < trs.length; i++) {
+        trs[i].classList.remove('hide');
+        if (!trs[i].classList.contains(className)) {
+            trs[i].classList.add('hide');
+        }
+    }
+
+});

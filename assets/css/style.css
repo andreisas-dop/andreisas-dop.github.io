@@ -322,20 +322,23 @@ strong {
 }
 
 table { border: 0px; }
-table td:first-child { font-weight: bold; }
-
+table td:first-child {
+    font-weight: bold;
+}
 table td {
-    border: 0px;
-    padding: 3px 8px !important;
+  border: 0px;
+  padding: 3px 8px !important;
 }
 thead {
-    font-family: 'Chalet60' !important;
-    font-weight: bold;
-    border-top: 2.5px solid #b5201b !important;
-    border-bottom: 2.5px solid #b5201b !important;
-    padding: 8px 8px 5px 8px !important;
+  font-family: 'Chalet70';
+  font-weight: bold;
+  padding: 8px 8px 5px 8px !important;
 }
 
+.link-group a {
+  font-family: 'Chalet70';
+  font-weight: bold;
+}
 
 
 /* ---------------------------------- colours */
@@ -374,6 +377,17 @@ header, footer {
   color: #b5201b;
 }
 
+table thead {
+  border-top: 2.5px solid #b5201b !important;
+  border-bottom: 2.5px solid #b5201b !important;
+}
+table tr {
+  background-color: #fff;
+}
+table tr:nth-of-type(2n) {
+  background-color: #f7f7f7;
+}
+
 
 /* ---------------------------------- buttons */
 .button, input[type=submit] {
@@ -397,11 +411,11 @@ input[type=submit] {
 
 .link-group {
   display: block;
-  width: 830px;
+  width: 851px;
   margin: 0 auto;
 }
 .link-group a {
-  padding: 0 10px;
+  padding: 0 6px;
   display: inline-block;
 }
 @media (max-width: 900px) {
