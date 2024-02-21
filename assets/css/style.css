@@ -385,7 +385,7 @@ table tr {
   background-color: #fff;
 }
 table tr:nth-of-type(2n) {
-  background-color: #f7f7f7;
+  background-color: #fff; /*#f7f7f7;*/
 }
 
 
@@ -411,7 +411,6 @@ input[type=submit] {
 
 .link-group {
   display: block;
-  width: 851px;
   margin: 0 auto;
 }
 .link-group a {
@@ -419,9 +418,6 @@ input[type=submit] {
   display: inline-block;
 }
 @media (max-width: 900px) {
-  .link-group {
-    width: 100%;
-  }
   .link-group a {
     display: block;
     margin: 0 auto;
@@ -430,6 +426,8 @@ input[type=submit] {
 }
 
 /* ---------------------------------- forms */
+
+/* booking form */
 form {
   margin-top: -30px;
 }
@@ -512,6 +510,12 @@ form input[type="radio"] {
     accent-color: #b5201b;
     margin-left: 20px;
 }
+
+/* subscribe form */
+form#subscribe-form {
+   margin-top: 0 !important;
+}
+
 
 /* Full-width video & images
  * ----------------------------------------------
@@ -835,7 +839,7 @@ form input[type="radio"] {
 
 .contact {
   display: flex;
-  padding-top: 20px;
+  padding-top: 6px;
   flex-direction: column;
 }
 .left .contact {

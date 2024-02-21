@@ -10,12 +10,12 @@ permalink: /creditlist
 </div>
 
 <div class="wrapper">
-<div class="link-group">
-<a onclick="choose_category(this, '1F&TV' )" id="1F&TV">TV & Film</a>
-<a onclick="choose_category(this, '2MV'   )" id="2MV"  >Music Video</a>
-<a onclick="choose_category(this, '3A&D'  )" id="3A&D" >Advertising & Digital Content</a>
-<a onclick="choose_category(this, '4C&E'  )" id="4C&E" >Corporate & Educational</a>
+<div class="link-group text-center">
 <a onclick="choose_category(this, 'credit')" id="all" class="red" >all</a>
+<a onclick="choose_category(this, '1F&TV' )" id="1F&TV">tv & film</a>
+<a onclick="choose_category(this, '2MV'   )" id="2MV"  >music video</a>
+<a onclick="choose_category(this, '3A&D'  )" id="3A&D" >advertising & content</a>
+<a onclick="choose_category(this, '4C&E'  )" id="4C&E" >corporate & educational</a>
 </div>
 </div>
 
