@@ -1,7 +1,7 @@
 ---
 title: Family portrait
 ord: 6
-text: The publishing of this series marks the two year anniversary of my last trip to Romania. <br/>It represents a celebration of my memories of some of the wonderful people that I've not seen for so long. Some of them I'll never be able to see again. <br/>⁠ When I loaded up the black and white film I knew I wanted to commit that point in time to the permanent record but no one could have foreseen the meaning these images would take on in such a short time span.
+text: The publishing of this series marks the two year anniversary of my last trip to Romania. <br/>It represents a celebration of my memories of some of the wonderful people that I've not seen for so long. Some of them I'll never be able to see again. <br/>When I loaded up the black and white film I knew I wanted to commit that point in time to the permanent record but no one could have foreseen the meaning these images would take on in such a short time span.
 spec: 2019 - Canon AE1 Program, Soligor Lenses, AGFA APX Pro 400
 thumb: /assets/img/photo/01_APP_FAM_FIN.jpg
 stills:
