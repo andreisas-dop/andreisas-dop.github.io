@@ -9,6 +9,7 @@ permalink: /creditlist
    <h1 class="text-center">Credit List</h1>
 </div>
 
+
 <div class="wrapper">
 <div class="link-group text-center">
 <a onclick="choose_category(this, 'credit')" id="all" class="red" >all</a>
@@ -21,8 +22,8 @@ permalink: /creditlist
 
 
 <div class="image-gallery">
+<p class="text-right">October 2024</p>
 <div class="inner">
-
 <table>
 <thead class="red">
 <tr>
