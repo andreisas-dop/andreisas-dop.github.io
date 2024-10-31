@@ -35,10 +35,137 @@ permalink: /creditlist
 </tr>
 </thead>
 <tbody>
+
+<tr class="credit 2MV">
+  <td>Tienne - Effortless</td>
+  <td>Music Video</td>
+  <td>Isabella Szanto</td>
+  <td>Dael Damsa</td>
+  <td>The One Records</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Everybody Dance - Live in Northampton</td>
+  <td>Advertising</td>
+  <td>Stuart Glover</td>
+  <td>Anthony Butler</td>
+  <td>Fiery Angel</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Ericsson - Imagine Live</td>
+  <td>Corporate</td>
+  <td>Tom Morgan</td>
+  <td>Natalie Barrass</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 1F&TV">
+  <td>This Will Make You Sleep Instantly</td>
+  <td>Short Film</td>
+  <td>Michalis Langas</td>
+  <td>Anna Boronea</td>
+  <td>ShepherdTone</td>
+</tr>
+<tr class="3A&D">
+  <td>Verizon - Day in The Life</td>
+  <td>Advertising</td>
+  <td>Cyrus Mirzashafa</td>
+  <td>Mimi Harmer</td>
+  <td>Tulsa Doom Films</td>
+</tr>
+<tr class="1F&TV">
+  <td>Playing Girl</td>
+  <td>Short Film</td>
+  <td>Alex Falkenberg</td>
+  <td>Cyrus Mirzashafa</td>
+  <td>Tulsa Doom Films</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Momentum - We Know Experiences</td>
+  <td>Corporate</td>
+  <td>Ginni Dunlop</td>
+  <td>Sophie Palmer</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Amy Dowden & Calos Gu - Reborn</td>
+  <td>Advertising</td>
+  <td>Stuart Glover</td>
+  <td>Anthony Butler</td>
+  <td>Fiery Angel</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Microsoft  AI Tour - Seoul</td>
+  <td>Branded Content</td>
+  <td>Natalie Barrass</td>
+  <td>Helen Burnett</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Everybody Dance - 2024 Promo</td>
+  <td>Advertising</td>
+  <td>Stuart Glover</td>
+  <td>Anthony Butler</td>
+  <td>Fiery Angel</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Bupa - Class of Paralympics GB - Episode 07</td>
+  <td>Branded Content</td>
+  <td>Natalie Barrasss</td>
+  <td>Charlotte Tabinor</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>FairOnChain - Introduction Video</td>
+  <td>Educational</td>
+  <td>Prof. William Knottenbelt</td>
+  <td>Prof. Marco Mattavelli</td>
+  <td>Imperial College London</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Mighty Fine Events - 2024 Promo</td>
+  <td>Advertising</td>
+  <td>Andrei Sas</td>
+  <td>Mark Van Der Berg</td>
+  <td>Mighty Fine Events</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Microsoft  AI Tour - Berlin </td>
+  <td>Corporate</td>
+  <td>Natalie Barrasss</td>
+  <td>Nicola Roodt</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Microsoft Teams - AI Summit - London</td>
+  <td>Corporate</td>
+  <td>Alex Lang</td>
+  <td>Natalie Barrasss</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Verizon - Intelligent Evolution Training</td>
+  <td>Corporate</td>
+  <td>Tom Morgan</td>
+  <td>Natalie Barrasss</td>
+  <td>Momentum Worldwide</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Speakeasy - Karen & Gorka 2024 Promo</td>
+  <td>Advertising</td>
+  <td>Stuart Glover</td>
+  <td>Stuart Glover</td>
+  <td>Triple A Entertainment</td>
+</tr>
+<tr class="credit 3A&D">
+  <td>Ikea - Proto Holograms</td>
+  <td>Branded Content</td>
+  <td>Natalie Barrass</td>
+  <td>Verizon Business</td>
+  <td>Momentum Worldwide</td>
+</tr>
 <tr class="credit 3A&D">
   <td>Bupa - Class of Paralympics GB - EP 05 & 06</td>
   <td>Branded Content</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Charlotte Tabinor</td>
   <td>Momentum Worldwide</td>
 </tr>
@@ -88,14 +215,14 @@ permalink: /creditlist
   <td>O2 Academy Activation - The Streets</td>
   <td>Branded Content</td>
   <td>Simeon Jarrett</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Momentum Worldwide</td>
 </tr>
 <tr class="credit 3A&D">
   <td>Bupa - Team Health - EP 03 & 04</td>
   <td>Branded Content</td>
   <td>Paul O'Biren</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Pobstar</td>
 </tr>
 <tr class="credit 3A&D">
@@ -143,14 +270,14 @@ permalink: /creditlist
 <tr class="credit 3A&D">
   <td>Tesco - Proto Holograms</td>
   <td>Branded Content</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Verizon</td>
   <td>Momentum Worldwide</td>
 </tr>
 <tr class="credit 3A&D">
   <td>Bupa - Class of Paralympics GB - EP 03 & 04</td>
   <td>Branded Content</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Charlotte Tabinor</td>
   <td>Momentum Worldwide</td>
 </tr>
@@ -171,7 +298,7 @@ permalink: /creditlist
 <tr class="credit 3A&D">
   <td>Burberry - Proto Holograms</td>
   <td>Branded Content</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
   <td>Verizon</td>
   <td>Momentum Worldwide</td>
 </tr>
@@ -185,8 +312,8 @@ permalink: /creditlist
 <tr class="credit 3A&D">
   <td>Ericsson - The Art of The Possible Filming</td>
   <td>Branded Content</td>
-  <td>Natalie Barras</td>
-  <td>Natalie Barras</td>
+  <td>Natalie Barrass</td>
+  <td>Natalie Barrass</td>
   <td>Momentum Worldwide</td>
 </tr>
 <tr class="credit 3A&D">
@@ -577,7 +704,7 @@ permalink: /creditlist
 <tr class="credit 3A&D">
   <td>Pave 5 Year Anniversary</td>
   <td>Editorial</td>
-  <td>Natalie Barrass</td>
+  <td>Natalie Barrasss</td>
   <td>Victoria Powers Larder</td>
   <td>Pave London</td>
 </tr>
