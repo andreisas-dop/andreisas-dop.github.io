@@ -64,14 +64,14 @@ permalink: /creditlist
   <td>Anna Boronea</td>
   <td>ShepherdTone</td>
 </tr>
-<tr class="3A&D">
+<tr class="credit 3A&D">
   <td>Verizon - Day in The Life</td>
   <td>Advertising</td>
   <td>Cyrus Mirzashafa</td>
   <td>Mimi Harmer</td>
   <td>Tulsa Doom Films</td>
 </tr>
-<tr class="1F&TV">
+<tr class="credit 1F&TV">
   <td>Playing Girl</td>
   <td>Short Film</td>
   <td>Alex Falkenberg</td>
