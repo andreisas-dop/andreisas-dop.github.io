@@ -1,7 +1,7 @@
 ---
 title: Sympathy for Seoul 
 ord: 11
-text: "The phone rang and one of my producers asks me: \"Do you want to go to Seoul for a shoot next week?\" <br/><br/>The Saturday after, I found myself in this wonderful country, straddling the enormous gap between its past and its present; between the superhighways of hypercapitalism and the warm mist drifting through the temples on the banks of the Han River. What I was left with was a deep sympathy for the people that make up this metropolis and all that they have built."
+text: "The phone rang and one of my producers asks me: \"Do you want to go to Seoul for a shoot next week?\" <br/><br/>The Saturday after, after the longest flight of my life so far I found myself in stunning South Korea, straddling the enormous gap between its past and its present; between the superhighways of hypercapitalism and the warm mist drifting through the temples on the banks of the Han River. What I was left with was a deep sympathy for the people that go about their lives in this charming corner of the world and all that they have built."
 spec: April 2024 - Sony a6700, Sigma Lenses
 thumb: /assets/img/photo/14_ASC_SfS.jpg
 stills:
