@@ -217,6 +217,12 @@ nav {
     font-size: 36px;
   }
 }
+@media screen and (max-width: 599px) {
+  .site-nav .page-link {
+     font-size: 24px;
+     margin: 0px !important;
+  }
+}
 @media screen and (min-width: 1350px) {
   nav .page-link {
     padding: 6px 10px 4px 10px;
@@ -1001,4 +1007,11 @@ form#subscribe-form {
 .post-title {
   margin: 100px auto;
 }
+
+
+/* mobile layout in pages - about and essays */
+@media (max-width: 599px) {
+  .essay p, .about p { text-align: left;  }
+}
+
 
