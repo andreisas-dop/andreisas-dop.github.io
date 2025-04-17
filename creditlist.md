@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cinematographer Booking Form
+title: Andrei Sas Full Credit List
 permalink: /creditlist
 ---
 
@@ -22,7 +22,7 @@ permalink: /creditlist
 
 
 <div class="image-gallery">
-<p class="text-right">October 2024</p>
+<p class="text-right">April 2025</p>
 <div class="inner">
 <table>
 <thead class="red">
@@ -35,7 +35,55 @@ permalink: /creditlist
 </tr>
 </thead>
 <tbody>
-
+   <tr class="credit 3A&D">
+  <td>Cirque Enchantment Live - 2025 Promo</td>
+  <td>Advertisingo</td>
+  <td>Stuart Glover</td>
+  <td>Stuart Glovera</td>
+  <td>Umbrella Productions</td>
+</tr>
+   <tr class="credit 3A&D">
+  <td>Verizon x H&M - Proto Holograms</td>
+  <td>Branded Content</td>
+  <td>Natalie Barrass</td>
+  <td>Olivia Bushell</td>
+  <td>Momentum Worldwide</td>
+</tr>
+   <tr class="credit 3A&D">
+  <td>Speakeasy - First Look Promo</td>
+  <td>Advertising</td>
+  <td>Stuart Glover</td>
+  <td>Stuart Glover</td>
+  <td>Triple A Entertainment</td>
+</tr>
+   <tr class="credit 3A&D">
+  <td>Mylands x Decorative Fair Battersea</td>
+  <td>Branded Content</td>
+  <td>Steffan Davies</td>
+  <td>Anthea Killeen</td>
+  <td>John Myland Ltd</td>
+</tr>
+   <tr class="credit 4C&E">
+  <td>Microsoft B2H Workshop </td>
+  <td>Corporate</td>
+  <td>Natalie Barrass</td>
+  <td>Helen Burnett</td>
+  <td>Momentum Worldwide</td>
+</tr>
+   <tr class="credit 3A&D">
+  <td>Mylands - Showroom Tour</td>
+  <td>Branded Content</td>
+  <td>Priya Paupamah</td>
+  <td>Anthea Killeen</td>
+  <td>John Myland Ltd</td>
+</tr>
+<tr class="credit 4C&E">
+  <td>Verizon B2H Workshop</td>
+  <td>Corporate Film</td>
+  <td>Natalie Barrass</td>
+  <td>Victoria Larder</td>
+  <td>Momentum Worldwide</td>
+</tr>
 <tr class="credit 2MV">
   <td>Tienne - Effortless</td>
   <td>Music Video</td>
@@ -44,7 +92,7 @@ permalink: /creditlist
   <td>The One Records</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>Everybody Dance - Live in Northampton</td>
+  <td>Everybody Dance EPK - Claire Richards</td>
   <td>Advertising</td>
   <td>Stuart Glover</td>
   <td>Anthony Butler</td>
