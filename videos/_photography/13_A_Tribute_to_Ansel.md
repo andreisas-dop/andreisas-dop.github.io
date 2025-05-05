@@ -1,7 +1,7 @@
 ---
 title: A Tribute to Ansel
 ord: 13
-text: "The first pictures that I took that I was truly happy with were shot on a borrowed Smena 6 and £1 Konica Centuria Super film. After burning through a couple of rolls with varying degrees of success and falling in love with the practice and the medium, I went to the library in search for a method to get consistent results. My school librarian directed me to our only copy of Ansel Adams' "The Camera" which introduced me to his thorough approach and wonderful way of seeing.<br/><br/>As time has passed and the speed of my life and the world's has increased, I decided to go back to my first master, slow down and create a tribute to all that I've learned from him."
+text: "The first pictures that I took that I was truly happy with were shot on a borrowed Smena 6 and £1 Konica Centuria Super film. After burning through a couple of rolls with varying degrees of success and falling in love with the practice and the medium, I went to the library in search for a method to get consistent results. My school librarian directed me to our only copy of Ansel Adams' “The Camera” which introduced me to his thorough approach and wonderful way of seeing.<br/><br/>As time has passed and the speed of my life and the world's has increased, I decided to go back to my first master, slow down and create a tribute to all that I've learned from him."
 spec: April 2024 - May 2025 - Pentax Spotmatic SP, Super Takumar Lenses, Ilford HP5 Plus Film
 thumb: /assets/img/photo/13_A_Tribute_to_Ansel/13_ASC_AtA.jpg
 stills:
