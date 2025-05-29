@@ -387,7 +387,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>The SpongeBob Musical - In Rehersal </td>
-  <td>Social Media</td>
+  <td>Social Media & EPK</td>
   <td>Stuart Glover</td>
   <td>Stuart Glover</td>
   <td>Selladoor</td>
