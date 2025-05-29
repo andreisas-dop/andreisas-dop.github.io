@@ -358,7 +358,7 @@ permalink: /creditlist
   <td>Coach House Pianos</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>Ericsson - The Art of The Possible Filming</td>
+  <td>Ericsson - The Art of The Possible</td>
   <td>Branded Content</td>
   <td>Natalie Barrass</td>
   <td>Natalie Barrass</td>
