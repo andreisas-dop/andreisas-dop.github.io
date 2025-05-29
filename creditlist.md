@@ -477,13 +477,6 @@ permalink: /creditlist
   <td>Umbrella Productions</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>The SpongeBob Musical - Cast Reveal</td>
-  <td>Branded Content</td>
-  <td>Stuart Glover</td>
-  <td>Stuart Glover</td>
-  <td>Selladoor</td>
-</tr>
-<tr class="credit 3A&D">
   <td>Footloose - Aberdeen EPK</td>
   <td>Social Media EPK</td>
   <td>Stuart Glover</td>
