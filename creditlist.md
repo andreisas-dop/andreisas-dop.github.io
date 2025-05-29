@@ -484,8 +484,8 @@ permalink: /creditlist
   <td>Selladoor</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>Footloose - Aberdeen - Socials</td>
-  <td>Social Media</td>
+  <td>Footloose - Aberdeen EPK</td>
+  <td>Social Media EPK</td>
   <td>Stuart Glover</td>
   <td>Stuart Glover</td>
   <td>Selladoor</td>
@@ -667,7 +667,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Made on Concrete</td>
-  <td>Editorial</td>
+  <td>Lifestyle Editorial</td>
   <td>Hector Aponysus</td>
   <td>Joseph Radonich</td>
   <td>Purple Martin</td>
@@ -856,7 +856,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Sunday Funday</td>
-  <td>Editorial</td>
+  <td>Culture Editorial</td>
   <td>Irina Alexiu</td>
   <td>Irina Alexiu</td>
   <td>ThatThing</td>
@@ -982,7 +982,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Ceclia Knapp - Bodies</td>
-  <td>Editorial</td>
+  <td>Cultural Editorial</td>
   <td>Irina Alexiu</td>
   <td>Claudia Rocha</td>
   <td>ThatThing</td>
@@ -1101,7 +1101,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Holy Dress</td>
-  <td>Editorial</td>
+  <td>Fashion Editorial</td>
   <td>Irina Alexiu</td>
   <td>Claudia Rocha</td>
   <td>ThatThing</td>
@@ -1171,7 +1171,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Citizens Mockumentary</td>
-  <td>Editorial</td>
+  <td>Lifestyle Editorial</td>
   <td>Irina Alexiu</td>
   <td>Adina Ilie</td>
   <td>ThatThing</td>
