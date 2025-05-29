@@ -1016,7 +1016,7 @@ permalink: /creditlist
   <td>Rampa</td>
 </tr>
 <tr class="credit 1F&TV">
-  <td>The Cuban Gipsy Project</td>
+  <td>Havana Night Sessions</td>
   <td>Documentary</td>
   <td>Damian Draghici</td>
   <td>Paula Rosenberg</td>
