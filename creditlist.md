@@ -36,8 +36,8 @@ permalink: /creditlist
 </thead>
 <tbody>
    <tr class="credit 3A&D">
-  <td>Cirque Enchantment Live - 2025 Promo</td>
-  <td>Advertisingo</td>
+  <td>Cirque Enchantment - 2025 Live Promo</td>
+  <td>Advertising</td>
   <td>Stuart Glover</td>
   <td>Stuart Glovera</td>
   <td>Umbrella Productions</td>
