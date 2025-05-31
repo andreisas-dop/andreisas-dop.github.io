@@ -35,6 +35,13 @@ permalink: /creditlist
 </tr>
 </thead>
 <tbody>
+ <tr class="credit 4C&E">
+  <td>Microsoft - CX Reimagined</td>
+  <td>Corporate</td>
+  <td>Natalie Barrass</td>
+  <td>Jay Lambelle</td>
+  <td>Momentum Worldwide</td>
+</tr>
    <tr class="credit 3A&D">
   <td>Cirque Enchantment - 2025 Live Promo</td>
   <td>Advertising</td>
