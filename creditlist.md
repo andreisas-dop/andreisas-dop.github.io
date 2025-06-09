@@ -129,7 +129,7 @@ permalink: /creditlist
 <tr class="credit 1F&TV">
   <td>Playing Girl</td>
   <td>Short Film</td>
-  <td>Alex Falkenberg</td>
+  <td>Alex Ernst</td>
   <td>Cyrus Mirzashafa</td>
   <td>Tulsa Doom Films</td>
 </tr>
@@ -589,7 +589,7 @@ permalink: /creditlist
   <td>Gutsy</td>
 </tr>
 <tr class="credit 4C&E">
-  <td>Galileo Nanos - Kristen</td>
+  <td>Galileo Nanos - Introduction to Game Design</td>
   <td>Tutorial Series</td>
   <td>Catalina Rusu</td>
   <td>Vlad Constantin</td>
@@ -603,7 +603,7 @@ permalink: /creditlist
   <td>ShepherdTone</td>
 </tr>
 <tr class="credit 4C&E">
-  <td>Galileo Nanos - Stacey</td>
+  <td>Galileo Nanos - How to Start a Business</td>
   <td>Tutorial Series</td>
   <td>Catalina Rusu</td>
   <td>Vlad Constantin</td>
