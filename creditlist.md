@@ -35,9 +35,16 @@ permalink: /creditlist
 </tr>
 </thead>
 <tbody>
+ <tr class="credit 4C&E">
+  <td>Microsoft - CX Reimagined</td>
+  <td>Corporate</td>
+  <td>Natalie Barrass</td>
+  <td>Jay Lambelle</td>
+  <td>Momentum Worldwide</td>
+</tr>
    <tr class="credit 3A&D">
-  <td>Cirque Enchantment Live - 2025 Promo</td>
-  <td>Advertisingo</td>
+  <td>Cirque Enchantment - 2025 Live Promo</td>
+  <td>Advertising</td>
   <td>Stuart Glover</td>
   <td>Stuart Glovera</td>
   <td>Umbrella Productions</td>
@@ -122,7 +129,7 @@ permalink: /creditlist
 <tr class="credit 1F&TV">
   <td>Playing Girl</td>
   <td>Short Film</td>
-  <td>Alex Falkenberg</td>
+  <td>Alex Ernst</td>
   <td>Cyrus Mirzashafa</td>
   <td>Tulsa Doom Films</td>
 </tr>
@@ -358,7 +365,7 @@ permalink: /creditlist
   <td>Coach House Pianos</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>Ericsson - The Art of The Possible Filming</td>
+  <td>Ericsson - The Art of The Possible</td>
   <td>Branded Content</td>
   <td>Natalie Barrass</td>
   <td>Natalie Barrass</td>
@@ -387,7 +394,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>The SpongeBob Musical - In Rehersal </td>
-  <td>Social Media</td>
+  <td>Social Media & EPK</td>
   <td>Stuart Glover</td>
   <td>Stuart Glover</td>
   <td>Selladoor</td>
@@ -477,15 +484,8 @@ permalink: /creditlist
   <td>Umbrella Productions</td>
 </tr>
 <tr class="credit 3A&D">
-  <td>The SpongeBob Musical - Cast Reveal</td>
-  <td>Branded Content</td>
-  <td>Stuart Glover</td>
-  <td>Stuart Glover</td>
-  <td>Selladoor</td>
-</tr>
-<tr class="credit 3A&D">
-  <td>Footloose - Aberdeen - Socials</td>
-  <td>Social Media</td>
+  <td>Footloose - Aberdeen EPK</td>
+  <td>Social Media EPK</td>
   <td>Stuart Glover</td>
   <td>Stuart Glover</td>
   <td>Selladoor</td>
@@ -525,8 +525,15 @@ permalink: /creditlist
   <td>Alex Popescu</td>
   <td>Saga Film</td>
 </tr>
+   <tr class="credit 1F&TV">
+  <td>Dinah</td>
+  <td>Short Film</td>
+  <td>Guy Taylor</td>
+  <td>Leona Clarke</td>
+  <td>Gatton Films</td>
+</tr>
 <tr class="credit 4C&E">
-  <td>Credit Suisse Shoot</td>
+  <td>Credit Suisse - Projections</td>
   <td>Corporate</td>
   <td>Paul O'Brien</td>
   <td>Paul O'Brien</td>
@@ -582,7 +589,7 @@ permalink: /creditlist
   <td>Gutsy</td>
 </tr>
 <tr class="credit 4C&E">
-  <td>Galileo Nanos - Kristen</td>
+  <td>Galileo Nanos - Introduction to Game Design</td>
   <td>Tutorial Series</td>
   <td>Catalina Rusu</td>
   <td>Vlad Constantin</td>
@@ -596,7 +603,7 @@ permalink: /creditlist
   <td>ShepherdTone</td>
 </tr>
 <tr class="credit 4C&E">
-  <td>Galileo Nanos - Stacey</td>
+  <td>Galileo Nanos - How to Start a Business</td>
   <td>Tutorial Series</td>
   <td>Catalina Rusu</td>
   <td>Vlad Constantin</td>
@@ -660,7 +667,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Made on Concrete</td>
-  <td>Editorial</td>
+  <td>Lifestyle Editorial</td>
   <td>Hector Aponysus</td>
   <td>Joseph Radonich</td>
   <td>Purple Martin</td>
@@ -849,7 +856,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Sunday Funday</td>
-  <td>Editorial</td>
+  <td>Culture Editorial</td>
   <td>Irina Alexiu</td>
   <td>Irina Alexiu</td>
   <td>ThatThing</td>
@@ -975,7 +982,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Ceclia Knapp - Bodies</td>
-  <td>Editorial</td>
+  <td>Cultural Editorial</td>
   <td>Irina Alexiu</td>
   <td>Claudia Rocha</td>
   <td>ThatThing</td>
@@ -1016,7 +1023,7 @@ permalink: /creditlist
   <td>Rampa</td>
 </tr>
 <tr class="credit 1F&TV">
-  <td>The Cuban Gipsy Project</td>
+  <td>Havana Night Sessions</td>
   <td>Documentary</td>
   <td>Damian Draghici</td>
   <td>Paula Rosenberg</td>
@@ -1094,7 +1101,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Holy Dress</td>
-  <td>Editorial</td>
+  <td>Fashion Editorial</td>
   <td>Irina Alexiu</td>
   <td>Claudia Rocha</td>
   <td>ThatThing</td>
@@ -1164,7 +1171,7 @@ permalink: /creditlist
 </tr>
 <tr class="credit 3A&D">
   <td>Citizens Mockumentary</td>
-  <td>Editorial</td>
+  <td>Lifestyle Editorial</td>
   <td>Irina Alexiu</td>
   <td>Adina Ilie</td>
   <td>ThatThing</td>
