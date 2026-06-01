@@ -956,6 +956,9 @@ form#subscribe-form {
   text-align: justify;
   margin-bottom: 20px !important;
 }
+.essay sup {
+  line-height: 0.1;
+}
 .essay li p {
   margin-bottom: 5px !important;
 }
@@ -995,6 +998,16 @@ form#subscribe-form {
     float: left;
     margin-right: 30px;
   }
+
+  .large-padding p img {
+    padding: 60px 0;
+  }
+  .large-padding .right-img img {
+    padding: 30px 0 30px 30px;
+  }
+  .large-padding .left-img img {
+    padding: 30px 30px 30px 0;
+  }
 }
 @media (max-width: 767px) {
   .essay img {
@@ -1013,5 +1026,4 @@ form#subscribe-form {
 @media (max-width: 599px) {
   .essay p, .about p { text-align: left;  }
 }
-
 
